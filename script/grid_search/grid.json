@@ -1,0 +1,24 @@
+{
+    "context-size":[10,5],
+    "negative-sampling":[5],
+    "alpha":[1, 0.1],
+    "beta":[1, 0.1],
+    "gamma":[0.1, 0.01],
+    "lr":[5e-4, 1e-4],
+    "loss-aggregation":["sum"],
+    "distance-coef":[1.0],
+    "dataset":["flickr"],
+    "n-gaussian":[195],
+    "walk-lenght":[80],
+    "precompute-rw":[10],
+    "epoch":[2],
+    "epoch-embedding":[1],
+    "cuda":[" "],
+    "em-iter":[50],
+    "size":[10,2],
+    "batch-size":[512],
+    "seed":[1],
+    "epoch-embedding-init":[5],
+    "draw":[" "]
+}
+
