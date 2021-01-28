@@ -6,7 +6,7 @@ The repository performs graph embedding in hyperbolic space by preserving *first
 community awareness.
 Tools and datasets used for developing and validating the methodology are provided in this package.
 
-![gmm_clustering_flat](https://github.com/tgeral68/EM_Hyperbolic/raw/HyperbolicGraphAndGMM/ressources/LFR_community_clustering.png "title-1") 
+![gmm_clustering_flat](https://raw.githubusercontent.com/tgeral68/HyperbolicGraphAndGMM/master/ressources/LFR_community_clustering.png) 
 
 ## Dependencies
 - python (version > 3.7)
