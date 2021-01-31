@@ -1,7 +1,7 @@
 # From Node Embedding To Community Embedding : A Hyperbolic Approach
 
 ## Introduction 
-The provided code implements **RComE**  the hyperbolic counterpart of **ComE**  algorithm (*S. Cavallari et al*). 
+The provided code implements **RComE**  (https://arxiv.org/abs/1907.01662) the hyperbolic counterpart of **ComE**  algorithm (*S. Cavallari et al*). 
 The repository performs graph embedding in hyperbolic space by preserving *first*, *second*-order proximities and
 community awareness.
 Tools and datasets used for developing and validating the methodology are provided in this package.
@@ -30,7 +30,7 @@ Small dataset are provided in the DATA folder for large one we provide a script 
 - Small datasets: Karate, Polblogs, Adjnoun, Polbooks, Football, lfr (generated dataset)
 - Large datasets: DBLP, BlogCatalog and Wikipedia
 
-Known true labels are also included. All datasets are described in the referred paper.
+Known true labels are also included. All datasets are described in the associated paper.
 To download large datasets on linux we provide the script 'config_and_download.sh':
 ```
 cd [path to]/EM_Hyperbolic
@@ -38,7 +38,7 @@ sh config_and_download.sh
 ```
 Notice that you will need the tools *unzip* provided in most Linux distributions.
 ## Use our code
-To train embedding we provide a script in "experiment_script/rcome_embedding.py" which run with the following parameters
+To train embedding we provide a script in "experiment_script/rcome_embedding.py" which run with the following parameters.
 
 ### Hyper-Parameters
 
